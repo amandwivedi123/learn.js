@@ -2,9 +2,11 @@
  
  // *************** DATATYPES *************
 
- // 1. Primitive Datatypes - a. string, b. number, c. boolean, 4. null, 5. undefined, 6. symbol.
- // 2. Non-Primitive Datatypes -  Object
+ // 1. Primitive Datatypes - a. string, b. number, c. boolean, 4. null, 5. undefined, 6. symbol, 7.BigInt
+ // 2. Non-Primitive Datatypes -  Object, Array, Function
 // Typeof()
+
+// Javascript is dynamically typed language 
 
 // **** CONVERSION **********
 
