@@ -54,3 +54,25 @@
 // console.log(2 > "1")
 // console.log(null > 0)
 // console.log(null >= 0);
+
+
+
+// *************** MEMORY ***********************
+
+// types of memory : 1.Stack memory -- used in primitive datatypes.
+                //   2. Heap memory -- used in non-primitive datatypes.
+
+  //  stack memory returns copy value
+  let name = "aman";
+  let name2 = name;
+  name2 = "atul"
+  console.log(name)
+  console.log(name2)
+  // heap returns the original value refrence;
+   const myObj = {
+    name : "aman",
+    upi : "aman@ybl"
+   }
+
+   myObj.name = "Adarsh"
+   console.log(myObj)
