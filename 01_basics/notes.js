@@ -1308,13 +1308,13 @@ Loops = FOR , While, DO-While, For-Of , For-In(For Object), Infinite Loops; */
 
 // --------------------------ARROW FUNCTION (= () =>) ------------------------
 
-const sum = (num1 , num2) => {
-    return num1 + num2;
-}
-console.log(sum(32,23))   // Basic Syntax of function    (---Explixit Return---)
+// const sum = (num1 , num2) => {
+//     return num1 + num2;
+// }
+// console.log(sum(32,23))   // Basic Syntax of function    (---Explixit Return---)
 
-const mul =(num1 , num2) => (num1 * num2)   // ---------Implicite Return---------
-console.log(mul(12,21));
+// const mul =(num1 , num2) => (num1 * num2)   // ---------Implicite Return---------
+// console.log(mul(12,2));
 
 // In this type of function we don't need to return the value ,, we just have to put the return value on parenthesis (value + value), it will automatically return the value. 
 
@@ -1337,4 +1337,7 @@ console.log(mul(12,21));
 
 // ----------------JAVASCRIPt EXCUTiON CONTEXT --------------------------------
 
-   
+//    function sum (a,b) {
+//    console.log(a * b);
+//    }
+//    sum(23,7)
