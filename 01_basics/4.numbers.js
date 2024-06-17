@@ -2,7 +2,7 @@
 
 let balance = 2353.12;
 
-console.log(balance);
+console.log(balance);e
 
  let toCon = balance.toString(); // converted string into number provides new number
  console.log(toCon.length); 
