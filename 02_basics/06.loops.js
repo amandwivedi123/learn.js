@@ -143,21 +143,21 @@ console.log(map2);
   }
 
  
-let country = new Map();      // set is known for unique value...
-country.set("India",1);
-country.set("America" , 2);
-country.set("japan",3);
-country.set("Africa",4);
-console.log(country)
+// let country = new Map();      // set is known for unique value...
+// country.set("India",1);
+// country.set("America" , 2);
+// country.set("japan",3);
+// country.set("Africa",4);
+// console.log(country)
 
-for(let [key , value ] of country){
-  // console.log( `the name of the country is ${countries.keys()} and the hirarchy is ${countries.values()}`)
-  // console.log(key, ":>" ,value);
-}
+// for(let [key , value ] of country){
+//   // console.log( `the name of the country is ${countries.keys()} and the hirarchy is ${countries.values()}`)
+//   // console.log(key, ":>" ,value);
+// }
 
-for (let [key , value] in country) {
-  // console.log(key , value);
-} 
+// for (let [key , value] in country) {
+//   // console.log(key , value);
+// } 
 
 let product = {       // In object the for of will not work...
  name : " Xiaomi",
@@ -176,11 +176,60 @@ const student = {
 }
 console.log(student);
 for(let data in student) {
-  console.log(`key of student is ${data} and value is ${student[data]}`)  // to print the keys and values of object
+  // console.log(`key of student is ${data} and value is ${student[data]}`)  // to print the keys and values of object
 }
 
 let array1 = [ "aman", "adarsh", "abhiram", "akhilesh", "bandna", "poonam"]  // using for in loop in array...
 
 for(let names in array1){
-  console.log(array1[names]);
+  // console.log(array1[names]);
 }
+let country = new Map();      // set is known for unique value...
+country.set("India",1);
+country.set("America" , 2);
+country.set("japan",3);
+country.set("Africa",4);
+// console.log(country)
+for(let val in country) {
+  // console.log(val)
+}
+
+// *********** For Each loop ************
+
+const namesA = [ "aman", "adarsh", "abhiram", "akhilesh", "bandna", "poonam"]
+namesA.forEach(  function (item ) {
+
+  // console.log(item);
+
+})
+
+namesA.forEach(  (item) => {    // for each function using for each loop (arrow function)...
+  // console.log(item)
+})
+
+function printMe (item,index,namesA) {  // we can print the array by using the external function by passing its parameter on the for each loop...
+
+console.log(index,item,namesA);
+}
+namesA.forEach(printMe)
+
+// Multiple objects on single array...
+
+const college =[
+  {
+    name : "RGPV",
+    course : "MSC CS",
+    fee : 28000
+  },
+  {
+    name : "MAkhanlal Chaturvedi",
+    course : "MSC",
+    fee : 54000
+  },
+   {
+    name :"Ramakrishna college",
+    course : "MSC ",
+    fee : 34000
+   }
+]
+console.log(college)
