@@ -1,0 +1,109 @@
+body {
+    background-color: rgb(51, 56, 87);
+    color : white
+}
+#main{
+    display :flex;
+    align-items :center;
+    justify-content:center;
+}
+#outer {
+    height :300px;
+    width :70%;
+    border : 2px solid black;
+    display :flex;
+    background-color:rgb(253, 215, 174);;
+    align-items:center;
+    justify-content :center;
+}
+#inner {
+    height :150px;
+    width :78%;
+    background-color:rgb(255, 189, 213);
+    border:2px solid black;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+   
+
+}
+.child{
+    height: 50px;
+    width: 100px;
+    border:2px solid black;
+    background-color:rgb(203, 238, 244);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    margin-right:30px;
+
+}
+/* #b{
+    height: 50px;
+    width: 100px;
+    border:2px solid black;
+    background-color:rgb(203, 238, 244);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    margin-right:30px;
+}
+#c{
+    height: 50px;
+    width: 100px;
+    border:2px solid black;
+    background-color:rgb(203, 238, 244);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    margin-right:30px;
+}
+#d{
+    height: 50px;
+    width: 100px;
+    border:2px solid black;
+    background-color:rgb(203, 238, 244);
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+} */
+.children {
+    height : 200px;
+    width : 250px;
+    background-color:rgb(187, 166, 170);
+    border :3px solid black;
+    border-radius: 7%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+   
+}
+ .h3El{
+    height : 40px;
+    width : 250px;
+
+    /* border-top :2px solid black; */
+    border-bottom :2px solid black;
+    
+ }
+
+
+.aman{
+    background-color : rgb(233, 142, 241);
+};
+
+.uniClass {
+    background-color :  rgb(255, 189, 213);
+    color : black ;
+    font-weight : bold;
+    border : 3px solid black;
+    padding : 10px;
+    width : 150px;
+    margin : 10px;
+
+}
