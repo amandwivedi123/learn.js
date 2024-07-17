@@ -232,4 +232,4 @@ const college =[
     fee : 34000
    }
 ]
-console.log(college)
+console.log(college);
