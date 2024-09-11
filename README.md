@@ -1,2 +1,2 @@
 # learn.js
-learn basics of javascript with notes
+ Let's learn basics of javascript with notes
